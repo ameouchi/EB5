@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>EB-5 Capital Gerrymandering of Targeted Employment Areas</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+       
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">   
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">    
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+	 
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+        
+       
+        
+        p3n {
+			font-family: 'Raleway', sans-serif;
+			color:#353536;
+			font-weight:400;
+			font-size:20px;
+      padding-left:100px;
+      padding-right:100px;
+      background-color: white;
+      text-align:center;
+		}
+		
+		p2n {
+			font-family: 'Raleway', sans-serif;
+			font-size:40px;
+			color:#353536;
+			font-weight:800;
+     	    font-variant: black;
+     	    font-variant: bold;
+            padding-left:300px;
+            padding-right:300px;
+            text-align:center;
+		}
+
+		svg {
+      font-family: 'Quicksand', sans-serif;
+      font-variant: bold;
+			width:150%;
+			height:600px;
+			padding-left:0%;
+			padding-right:00px;
+		}
+
+
+    h2n {
+      font-family: 'Quicksand', sans-serif;
+      font-size:15px;
+      font-weight:200;
+      font-variant: bold;
+      line-height:;
+      text-align:center
+    }
+
+		#covervisualdiv, #secondvisualdiv, #thirdvisualdiv {
+        position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          transition: opacity 0.8s;
+          -webkit-transition: opacity 0.8s;
+    	}
+
+    #mapdiv0{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 00px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+    #mapdiv1{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 00px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+        
+    #mapdiv2{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 00px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+        
+    #mapdiv3{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 00px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+        
+     #mapdiv4{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 00px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+        
+     #mapdiv5{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 00px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+        
+     #mapdiv6{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 00px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+        
+     #mapdiv7{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 00px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+        
+    #mapdiv8{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 00px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+        
+     #mapdiv9{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -1px;
+          padding: 00px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+        
+  
+
+   .text1opacity, .text2opacity, .text3opacity, .text4opacity {
+   
+       
+       
+        opacity:0;
+        transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+         
+        }
+
+		.active {
+        	opacity:1;
+    	}
+
+      .deactive {
+              opacity:0;
+          }
+          
+		#firstvisualdiv{
+      
+          
+          top: -1px;
+          border-color: black;
+          background-color: white;
+          padding: 20px;
+          transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+         
+
+    	}
+
+
+   .text11opacity, .text12opacity {
+        font-size:30px;
+        fill:blue;
+        opacity:0;
+        transition: opacity 0.8s;
+         -webkit-transition: opacity 0.8s;
+        }
+
+    .text13opacity {
+        font-size:30px;
+        fill:blue;
+        opacity:0;
+        transition: opacity 0.8s;
+        color: blue;
+         -webkit-transition: opacity 0.8s;
+        } 
+        
+    .text14opacity {
+        font-size:30px;
+        fill:blue;
+        opacity:0;
+        transition: opacity 0.8s;
+        color: blue;
+         -webkit-transition: opacity 0.8s;
+        } 
+
+
+</style>
+        
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+               
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">What is EB-5?</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">How it Works</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Case Studies</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#conclusions">Conclusions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                
+                <div class="masthead-heading" id="text21">EB-5 Capital Gerrymandering of Targeted Employment Areas</div>
+                <div class="masthead-subheading" id="text21">By Wuyahuang Li, Alberto Meouchi, Olivia Serra</div>
+                <div class="masthead-subheading2"  id="text21"> 12/09/2020 </div>
+              
+            </div>
+        </header>
+                <!-- About-->
+                <section class="page-section">
+            <div class="container">
+                <div class="text-center">
+                
+                <div class="text-left"><p class="text-muted">In her book Extrastatecraft, American urbanist Keller Easterling used this new-coined term to describe undisclosed political and financial activities in partnership with statecraft. In this article, the team uses Extrastatecraft as a conceptual framework, to investigate EB-5 capital gerrymandering of targeted employment areas across US cities. We use the data from the American Community Survey to analyze the differences in unemployment rates before and after the so-called EB-5 projects and proposed a way of evaluating the funding model in the conclusion section.
+			</p>
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                   <div class="text-left"> <h2 class="section-heading" id="text22">What is EB-5?</h2>
+                    <h3 class="section-subheading text-muted">There is Such Thing As Free Lunch! </h3>
+                </div>
+                
+<div class="container">
+                <div class="text-center">
+         <div class="row" position="right">
+     	<div class="col-6" position="right" max-height="220px">
+     		<br><br>
+     	</div>
+     </div>
+     <div class="row" position="right">
+     	<div class="col-7"position="right">
+     	
+       <div class="text-left"><p class="text-muted">In 1990, the U.S. Congress created the fifth employment-based (i.e., EB-5) preference immigrant visa for foreign nationals eligible to become lawful permanent residents (or green card holders) by financing a “new commercial enterprise“ that will employ at least 10 American workers. For each EB-5 visa, one must invest <span style="font-weight:700">at least $500,000 ($900,000 since 2019) through regional centers.</span>  
+
+			</p>
+     		</div>  
+     	</div>
+
+     	<div class="col-5">
+     		 <br><br>
+     		<div>
+               <img class="rectangle" src="assets/img/about/7.jpg" alt="" width="100%" height="100%"/>   
+               <p class="text-muted"><span style="font-style:italic; font-size: 70%">Illustration by Isabel Espanol</span> </p>
+                </div> 
+                
+                </div> 
+                <div class="col-12">
+               <div class="text-left"><p class="text-muted"> The regional center is a federally approved agent, often a private third-party, taking a commission from developers to connect them with foreign investors. Researchers at the Center for Real Estate Finance Research at New York University found that <span style="font-weight:700">99% of the immigrant investor involved in the EB-5 program invest in the targeted employment area (i.e., TEA).</span> 
+
+The EB-5 program did not gain popularity until the 2008 housing bubble drained conventional sources of capital. The EB-5’s purpose is not only to stimulate the U.S. economy through the creation and capital investment but to raise funding to invest in high unemployment areas. However, the US government decided to turn a blind eye on the qualification of regional centers and their standards on qualifying TEA as a way for the real estate market to recover from the financial crisis. </p> 
+          </div> 
+     		</div>
+     	</div>     
+     	
+     </div>                   
+     <br><br>
+     <br><br>
+                   <div class="text-left"> <h2 class="section-heading" id="text22">EB-5 Capital Gerrymandering and Consequences</h2>
+                </div>
+                
+
+         <div class="row" position="right">
+     	<div class="col-6" position="right" max-height="200px">
+     		<br><br>
+     	</div>
+     </div>
+     <div class="row" position="right">
+     	<div class="col-7"position="right">
+     	
+       <div class="text-left"><p class="text-muted">Costing a total of $25 billion, <span style="font-weight:700">Hudson Yards is the most expensive real-estate development project in US history.</span> The primary developer of the 26-acre West Side Yards in midtown Manhattan is Related Companies – one of the largest developers in the US –and Oxford Property Groups. In addition to the investment capital of these developers, Hudson Yard collects $1.6 billion from the fifth employment-based (EB-5) visa program, the Golden Visa providing a fast track to trade US residency and citizenship with wealthy foreign investors for investment capital. 
+
+In January 2017, the CityLab published a document revealing the joint census tracts to qualify Hudson Yard as a Targeted Employment Area. The map included in the document illustrates a <span style="font-weight:700">highly selective manipulated boundary to qualify Hudson Yards as a TEA.</span> 
+</p>
+     		</div>  
+     	</div>
+
+     	<div class="col-5">
+     		 <br><br>
+     		<div>
+               <img class="rectangle" src="assets/img/about/8.jpg" alt="" width="100%" height="100%"/>   
+               <p class="text-muted"><span style="font-style:italic; font-size: 70%">Public Advocate Jumaane Williams said Hudson Yards was cynically gerrymandered into a zone for “distressed areas,” linking it to public-housing in Harlem so that the new mega-development could quality for a visa program benefiting wealthy foreigners. (Photo by Tequila Minsky)</span> </p>
+                </div> 
+                
+                </div> 
+                <div class="col-12">
+               <div class="text-left"><p class="text-muted"> As a result, the unemployment rate is boosted from 5.0% to 12.6%, almost three times the national unemployment rate (4.4%) in the same year. 
+
+The extremely odd route consists of 12 census tracts, five of which locate in Harlem 70 blocks away from the EB-5 funded projects in Hudson Yards. To make the Hudson Yards’ gerrymandering a more appealing case for USCIS for EB-5 funding, Empire State Development assists The Related Companies to include Central Park, a blank in the census database. The players committing such forms of gerrymandering range from private developers to state agents, taking up undisclosed economic and financial activities in partnership with the sanctioned authorities of the state. </p> 
+          </div> 
+     		</div>
+     	</div>     
+     	</div>
+     	
+     </div>      
+     	
+              
+<main role="main" class="text-center">
+
+     <div class="row" position="right">
+     	<div class="col-6" position="right">
+     		<br><br>
+     	</div>
+     </div>
+     <div class="row" position="right">
+     	<div class="col-4"position="right">
+     	
+      <br><br>
+     	<br><br>
+     	<br><br>
+     	<p id="text11"><p class="text-muted" position="right"> The threshold unemployment rate to be eligible for TEA in 2013 (150% national average). </p>
+		
+		<p2>6.6%</p2>
+		
+		<p class="text-muted">Now Hudson Yards reaches</p>
+		
+		<p2 class="section-subheading text-muted2">5.0%</p2>
+
+     	
+     	<br><br>
+     	<br><br>
+     	<br><br>
+     	<br><br>
+     	<br><br>
+     	<br><br>
+     	
+     	
+
+     	<p id="text12"><p class="text-muted"> The threshold unemployment rate to be eligible for TEA in 2013 (150% national average). </p>
+		<p2>6.6%</p2>
+		<p class="text-muted">Now Hudson Yards reaches</p>
+		<p2>5.6%</p2>
+
+
+     	
+     	<br><br>
+     	<br><br>
+     	<br><br>
+     	<br><br>
+
+     	<p id="text13"><p class="text-muted"> The threshold unemployment rate to be eligible for TEA in 2013 (150% national average). </p>
+		<p2>6.6%</p2>
+		<p class="text-muted">Now Hudson Yards reaches</p>
+		<p2>7.6%</p2>
+
+     	<br><br>
+     	<br><br>
+     	<br><br>
+     	<br><br>
+     	<br><br>
+     	
+     	
+     	<p id="text14"><p class="text-muted"> The threshold unemployment rate to be eligible for TEA in 2013 (150% national average). </p>
+		<p2>6.6%</p2>
+		<p class="text-muted">Now Hudson Yards reaches</p>
+		<p2>12.6%</p2>
+
+     	<br><br>
+     	<br><br>
+     	<br><br>
+     	<br><br>
+     	</div>
+
+     	<div class="col-8">
+     		<div id="firstvisualdiv">
+               <img class="text1opacity" class="rectangle" src="assets/img/about/1.jpg" alt="" width="75%" height="75%"/>
+               
+               <br><br>
+               <img class="text2opacity" class="rectangle" src="assets/img/about/2.jpg" alt="" width="75%" height="75%"/>
+               
+               <br><br>
+               <img class="text3opacity" class="rectangle" src="assets/img/about/3.jpg" alt="" width="75%" height="75%"/>
+               
+               <br><br>
+               <img class="text4opacity" class="rectangle" src="assets/img/about/4.jpg" alt="" width="75%" height="75%"/>
+               
+     		</div>
+     	</div>
+    	
+       
+        <p id="text15"> .</p>
+       
+         <div class="text-left"><p class="text-muted">Multiple state agencies are involved in the lawful yet unethical act of EB-5 capital gerrymandering. In a neoliberal market, social risks such as poverty and unemployment fall into the domain of self-care problems. <span style="font-weight:700">Communities of color in Harlem remain highly unemployed as the historical causality of systemic racism.</span>
+			</p>
+     		</div>  
+     	</div>
+     </div>       
+        </section>
+        <!-- Services-->
+         
+            <div class="container" style="max-width:100%">
+               
+                
+                
+                <div class="text-left">
+                    <h2 class="section-heading text-uppercase"></h2> </div> 
+                    <h3 class="section-subheading text-muted"></h3>
+                    </div> 
+                    
+         <div class="row" position="right">
+     	<div class="col-6" position="right">
+     		<br><br>
+     	</div>
+     </div>
+     <div class="row" position="right">
+     	<div class="col-10"position="right">
+     	
+      <div style="border: thick solid black" ...>
+     	<iframe style="width:100%; height:850px;d-block mx-auto;" src="assets/img/condensed/NY_NY_race_2012.html" frameborder=0 >
+					</iframe> </div>
+     	</div>
+
+     	<div class="col-2">
+     		<p class="text-muted3" >The non-white population mostly lives in upper Manhattan, whose neighborhoods become an easy target for the Hudson Yards gerrymander plan. In 2016, Manhattan sees an increase of 1.8% employment rate on average. In contrast to this narrative, the West Harlem neighborhood within the conjoint tract turns into a TEA. Although the five Harlem neighborhoods within conjoint tracts see an average increase of approx. 0.96% of the employment rate, the flux is still far below the city average. With $1.6 billion investment and 19,000 jobs created around the development of Hudson Yards, these five neighborhoods remain omitted.
+
+						<br><br><span style="font-weight:700">Before Gerrymandering:</span>
+							Unemployment rate at Hudson Yards is 6.2%
+
+							<br><br><span style="font-weight:700">After Gerrymandering:</span>
+							Unemployment Rate at Hudson Yards qualified  as 12.6%
+					</p>
+             
+               
+     		</div>
+     	</div>     
+     	</div>
+     </div>          
+                
+                <!-- Scrollytelling-->
+              
+     <section class="page-section" >
+            <div class="container">
+                <div class="text-center">
+                    <br><br/>
+                    <br><br/>
+                    <p2 class="section-subheading text-muted2">Most EB-5 projects in Manhattan do not help create jobs in the actual Targeted Employment Area, researchers at Center for Real Estate Finance Research at New York University found.</p2>		
+					<br><br/>
+                    <br><br/>
+                    <br><br/>
+                    <br><br/>
+                    <br><br/>
+                    <br><br/>
+					<p2 class="section-subheading text-muted2">Further studies at the center suggests that 99% of the EB-5 projects follow this same pattern: random location with low-unemployment rate without adding up employment in the tracts it gerrymanders.</p2> 
+                    <br><br/>
+                    <br><br/>
+                    <br><br/>
+                    <br><br/>
+                    <br><br/>
+                    <div>
+                    
+                    </div>
+                </div>   
+                </div> 
+</head>
+<body>  
+<section class="page-section"id="about">
+                     <div class="text-left">
+                    <h2 class="section-heading">How it Works </h2>
+                    <h3 class="section-subheading text-muted">Financial Gerrymandering in New York City</h3></div>
+     		<p class="text-muted">At its core, EB-5 is a job-incentive policy yet fails to translate the employment figure into its target geography. 
+			Multiple state agencies are involved in the lawful yet unethical act of EB-5 capital gerrymandering, which further registers Hudson Yards as an extractstatecraft, and Harlem as a free lunch for everyone, every full-human as synonymous with white, western man. In the neoliberal context, social risks such as poverty and unemployment fall into the domain of self- care problems, and the state intervenes in redirecting capital in a reverse robinhood fashion and withdraws when confronting the pressure of real estate and capital.
+			</p>
+     		</div>
+     		</div>
+     		</div>
+     	</div>
+     	</div>
+     	</div>
+        
+			
+     	<p id="text0">
+     	<div id="mapdiv0">
+     
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <div class="text-center">
+        <p2n>9</p2n>
+        <br><br/>
+     	<p3n>Steps to understand what went wrong with EB-5 mechanism </p3n>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        </div> 
+        </div>  
+     	<p id="text1">	
+     	<div id="mapdiv1">
+     	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <div class="text-center">
+        <p2n>1</p2n>
+        <br><br/>
+		<p3n>International investors directly deposited funds to the Federal Government      </p3n>
+		<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        </div> 
+        </div>  
+        <div class="text-center"> 
+        <img class="rectangle" src="assets/img/gerrymandering/1.jpg" alt="" width="80%" height="80%"/> 
+        </div> 
+        </div>
+     	<p id="text2">
+     	<div id="mapdiv2">
+     	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <div class="text-center">
+        <p2n>2</p2n>
+        <br><br/>
+		<p3n>Federal Agencies then would collect it and release the Visas    </p3n>
+		<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        </div>
+		</div>
+		<div class="text-center">
+        <img class="rectangle" src="assets/img/gerrymandering/2.jpg" alt="" width="80%" height="80%" />
+        </div>
+        </div>
+     	<p  id="text3">
+     	<div id="mapdiv3">
+     	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <div class="text-center">
+        <p2n>3</p2n>
+        <br><br/>
+		<p3n>Targeted Employment Areas would use the funds for projects to create at least 10 jobs per investment    </p3n>
+      	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        </div>
+		</div>
+		<div class="text-center">
+        <img class="rectangle" src="assets/img/gerrymandering/3.jpg" alt="" width="80%" height="80%" />
+        </div>
+        </div>
+     	<p id="text4">
+     	<div id="mapdiv4">
+     	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <div class="text-center">
+        <p2n>4</p2n>
+        <br><br/>
+		<p3n>Such projects would be be key elements for the development of needed neighborhoods     </p3n>
+		<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        </div>
+        </div>
+      	<div class="col-12">
+			</div>
+		<div class="text-center">
+        <img class="rectangle" src="assets/img/gerrymandering/4.jpg" alt="" width="80%" height="80%" />
+        </div>
+        </div>
+      </div>
+     	<p id="text5">
+     	<div id="mapdiv5">
+     	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <div class="text-center">
+        <p2n>5</p2n>
+        <br><br/>
+        <p3n>The ideal was to recover unemployed areas and improve livelihood</p3n>
+     	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        </div>
+		</div>
+		<div class="text-center">
+        <img class="rectangle" src="assets/img/gerrymandering/5.jpg" alt="" width="80%" height="80%" />
+        </div>
+        </div>
+      <p id="text6">
+      <div id="mapdiv6">
+     	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <div class="text-center">
+        <p2n>6</p2n>
+        <br><br/>
+	  <p3n>Developers and Regional Centers partner for specific projects</p3n>
+	    <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        </div>
+      	</div>
+      
+			<div class="text-center">
+        <img class="rectangle" src="assets/img/gerrymandering/6.jpg" alt="" width="80%" height="80%" />
+        </div>
+      </div>
+      </div>
+       <p id="text7">
+         <div id="mapdiv7">
+     	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <div class="text-center">
+        <p2n>7</p2n>
+        <br><br/>
+		<p3n>Developers and Regional Centers trace new boundaries to allocate the money in projects with high profit </p3n>
+		<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        </div>
+		</div>
+		<div class="text-center">
+        <img class="rectangle" src="assets/img/gerrymandering/7.jpg" alt="" width="80%" height="80%"/>
+        </div>
+        </div>
+       <p id="text8">
+        <div id="mapdiv8">
+     	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <div class="text-center">
+        <p2n>8</p2n>
+         <br><br/>
+       <p3n>Such projects usually do not contribute to improve underdeveloped areas</p3n>
+       <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        </div>
+       </div>
+       <div class="text-center">
+        <img class="rectangle" src="assets/img/gerrymandering/8.jpg" alt="" width="80%" height="80%" />
+        </div>
+         </div>
+       <p id="text9">
+         <div id="mapdiv9">
+     	<br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <div class="text-center">
+        <p2n>9</p2n>
+        <br><br/>
+       <p3n>Status Quo remains, as underprivileged areas do not receive investment from EB5 or any other funding</p3n>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>   
+     	</div>
+     	</div>
+     	<div class="text-center">
+        <img class="rectangle" src="assets/img/gerrymandering/9.jpg" alt="" width="80%" height="80%" />
+        </div>
+        </div>
+     </div>
+    <p id="text10">
+    <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        <br><br/>
+        </div>
+        
+       <div class="container">
+                <div class="text-center">
+ 	<p2 class="section-subheading text-muted2">To examine whether the EB-5 formula we find in Hudson Yards is applicable to cities across the US, we investigate another five EB-5 projects in Los Angeles, Orange County, Jersey City, and Boston. Here are the case studies.</p2> 
+</div> 
+
+     </div>
+     </div>
+  </main><!-- /.container -->
+</body>
+              
+              
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-left">
+                    <h2 class="section-heading text-uppercase">Case Studies</h2>
+                    <h3 class="section-subheading text-muted">Financial Gerrymandering in the United States.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Hudson Yards</div>
+                               <div class="portfolio-caption-subheading text-muted">New York City</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Waldorf Astoria</div>
+                                <div class="portfolio-caption-subheading text-muted">Los Angeles</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">The Point</div>
+                                <div class="portfolio-caption-subheading text-muted">Boston</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Trump Jersey City</div>
+                                <div class="portfolio-caption-subheading text-muted">Jersey City</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">The Source and The Peace Hotels</div>
+                                <div class="portfolio-caption-subheading text-muted">Los Angeles</div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer-->
+               <div class="container">
+                <div class="text-center">
+ 	
+</div> 
+
+         <section class="page-section" id="conclusions">
+            <div class="container">
+            <h2 class="section-heading text-uppercase">Conclusions</h2>
+            <h3 class="section-subheading text-muted">What is next?</h3>
+           
+<div class="text-left"><p class="text-muted">In 2019, the Department of Homeland Security published an EB-5 amendment, intending to regulate the regional centers and limit the gerrymandering practices of TEA. Although it was supposed to come into effect on November 21, 2019, President Trump signed a law extending the Regional Center Program through December 11, 2020.
+
+The future of EB-5 is still uncertain, but its potential effect to distort and reconfigure the geography of economics and racial justice still exists at a national level.
+
+Based on our case studies, we realize that some TEAs have witnessed an unemployment rate decrease after an adjacent EB-5 project was completed. More cases show otherwise. Therefore, we would like to propose to evaluate regional centers based on their ability to mitigate the unemployment reality, instead of the EB-5 capital they can allocate into the market.
+
+
+			</p>
+			<br><br/>
+			<div class="text-center"><img src="assets/img/footer-bg.jpg" alt="Close modal" alt="" width="100%" height="100%"/>
+			</div> 
+			<br><br/>
+        <br><br/>
+        <br><br/>
+			<p2 class="section-subheading text-muted2">The repairment of EB-5 is overdue.
+How else can it be fixed?
+</p2> 
+  </div>
+        </section>
+<br><br/>
+     		</div>
+     		  <div class="container">
+                <div class="text-center">
+     		
+                    <h2 class="section-heading text-uppercase">Acknowledgements</h2>
+                    <br><br/>
+                    <div class="text-left"><p class="text-muted">This website and its contents are devised by MIT SMarchS Urbanism candidates Wuyahuang Li, Olivia Serra, and Alberto Meouchi for subject 11.454 Big Data, Visualization, And Society. This project would not have been possible without the fruitful conversations and support we received from the teaching team, Sarah Williams, Yuan Lai, Trish Cafferky, Yanchao Li, and Lily Xie. In particular, we want to thank Rania Ghosn and Melissa Soto for their help with the early project development. The data we used for the visualizations are from the American Community Survey, U.S. Census Bureau, Department of Commerce, Statista, U.S. Citizenship and Immigration Services, and studies conducted by the Center for Real Estate Finance Research at New York University's Stern School of Business. As the EB-5 capital gerrymander documents can only be acquired via FOIA, we source these documents from reliable journalism media, i.e., The New York Times, Washington Post, The L.A. Times, and CityLab, as our primary source. The visualization code on race distribution is adapted from spatial data scientist Kyle Walker's work.</div>
+                       <br><br/>
+                         <h2 class="section-heading text-uppercase"><span style="font-size:35px">Datasets</span></h2>
+                         <br><br/>
+                        <div class="text-left"><p class="text-muted4"><span style="font-weight:700">American Community Survey (for unemployment rate and race distribution)</span> </div>
+                            <div class="text-left"><p class="text-muted4"><span style="font-weight:700">US Census Bureau, Department of Commerce (TIGER/Line Shapefile, Census Tract State-based Shapefile)</span> </div>
+                            <div class="text-left"><p class="text-muted4"><span style="font-weight:700">US National Unemployment Rate since 1900</span> </div>
+                         <div class="text-left"><p class="text-muted4">https://www.statista.com/statistics/193290/unemployment-rate-in-the-usa-since-1990/</div>
+                            <div class="text-left"><p class="text-muted4"><span style="font-weight:700">Full list of Regional Centers (including the ones been canceled)</span> </div>
+                         <div class="text-left"><p class="text-muted4">https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-fifth-preference-eb-5/eb-5-immigrant-investor-regional-centers/approved-eb-5-immigrant-investor-regional-center</div>
+                            <div class="text-left"><p class="text-muted4"><span style="font-weight:700">Qualitative EB-5 Case Study by NYU Stern School</span> </div>
+                         <div class="text-left"><p class="text-muted4">https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/centers-of-research/center-real-estate-finance-research/research/eb-5-research/</div>
+                         <br><br/>
+                      <h2 class="section-heading text-uppercase"><span style="font-size:35px">Case Studies</span></h2>
+                      <br><br/>
+            	<div class="text-left"><p class="text-muted4"><span style="font-weight:700">65 Beacon Street, Jersey City, NJ</span> </div>
+                <div class="text-left"><p class="text-muted4">https://www.latimes.com/business/la-fi-kushner-eb5-20170601-story.htm</div>
+                   <div class="text-left"><p class="text-muted4"><span style="font-weight:700">Hudson Yards, New York City, NY + Waldorf Astoria Beverley Hills, Los Angeles, CA</span> </div>
+                         <div class="text-left"><p class="text-muted4">https://www.bloomberg.com/news/articles/2017-01-31/how-to-fix-the-eb-5-cash-for-visas-immigration-program/</div>
+                            <div class="text-left"><p class="text-muted4"><span style="font-weight:700">Pierce Point, Boston, MA/</span> </div>
+                         <div class="text-left"><p class="text-muted4">https://commonwealthmagazine.org/economy/sketchy-federal-program-sells-citizenship/</div>
+                            <div class="text-left"><p class="text-muted4"><span style="font-weight:700">The Source + Pasea Hotel, Orange County, CA</span> </div>
+                         <div class="text-left"><p class="text-muted4">https://www.ocregister.com/2015/10/13/need-a-fast-track-to-citizenship-invest-in-these-orange-county-luxury-hotels</div>
+                          <br><br/>
+                      <h2 class="section-heading text-uppercase"><span style="font-size:35px">Visualization Code</span></h2>
+                      <br><br/>
+                <div class="text-left"><p class="text-muted4">https://github.com/walkerke/mb-immigrant</div>
+                
+                     <br><br/>  
+                </div>
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                 <div class="col-lg-4 text-lg-center"> </div>
+                    <div class="col-lg-4 text-lg-center">Big Data, Visualization, and Society</div>
+                    <br><br/>
+                    <div class="col-lg-4 text-lg-center"> </div>
+                    <div class="col-lg-4 text-lg-center"> </div>
+                    <div class="col-lg-4 text-center">Fall 2020</div>
+                    <br><br/>
+                    <div class="container">
+                     <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-center"><a href = "mailto: wyhli@mit.edu">wyhli@mit.edu</a></div>
+                    <br><br/>
+                    <div class="col-lg-4 text-lg-center"><a href = "mailto: opcs@mit.edu">opcs@mit.edu</a></div>
+                    <br><br/>
+                    <div class="col-lg-4 text-lg-center"><a href = "ameouchi@mit.edu">ameouchi@mit.edu</a></div>
+                    <br><br/>
+                    </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container" style="max-width:100%">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Hudson Yards</h2>
+                                    <p class="item-intro text-muted">New York City</p>
+                                  <!--   <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />-->
+                                    <div class="row center">
+                                    <iframe style="width:5000px; height:800px;d-block mx-auto;" src="assets/img/condensed/NY_NY_race_2012.html" frameBorder="0">
+									</iframe>
+									</div>
+									<br><br/>  
+                                    <p class="text-muted">Description</p>
+                                    <ul class="list-inline">
+                                        <li class="text-muted">The non-white population mostly lives in upper Manhattan, whose neighborhoods become an easy target for the Hudson Yards gerrymander plan. In 2016, Manhattan sees an increase of 1.8% employment rate on average. In contrast to this narrative, the West Harlem neighborhood within the conjoint tract turns into a TEA. Although the five Harlem neighborhoods within conjoint tracts see an average increase of approx. 0.96% of the employment rate, the flux is still far below the city average. With $1.6 billion investment and 19,000 jobs created around the development of Hudson Yards, these five neighborhoods remain omitted.
+
+
+Before Gerrymandering,
+Unemployment rate at Hudson Yards is 6.2%
+
+After Gerrymandering,
+Unemployment Rate at Hudson Yards qualified  as 12.6%
+</li>
+                                      
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container" style="max-width:100%">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Waldorf Astoria</h2>
+                                    <p class="item-intro text-muted">Los Angeles</p>
+ <!--   <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />-->
+                                    <div class="row center">
+                                    <iframe style="width:5000px; height:800px;d-block mx-auto;" src="assets/img/condensed/CA_LA_race_2015.html" frameBorder="0">
+									</iframe>
+									</div>
+									<br><br/> 
+                                    <p class="text-muted">A majority of the non-white communities locates east of the EB-5 project, Waldorf Astoria. In 2017, Los Angeles county sees an increase of 3.3% employment rate on average. The 12 conjoint tracts have an average of 6.1% of the employment rate increase. Compared to the national average unemployment rate at 4.0%, only two tracts qualify as TEA (unemployment rate > 6.0%), and 8 tracts subvert the TEAs into low unemployment rate neighborhoods.
+
+Before Gerrymandering,
+Unemployment rate at Waldorf Astoria is 6.0%
+
+After Gerrymandering,
+Unemployment Rate at Waldorf Astoria qualified as 
+</p>
+                                    <ul class="list-inline">
+                                        <li></li>
+                             
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container" style="max-width:100%">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">The Point</h2>
+                                    <p class="item-intro text-muted">Boston</p>
+                                     <!--   <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />-->
+                                    <div class="row center">
+                                    <iframe style="width:5000px; height:800px;d-block mx-auto;" src="assets/img/condensed/MA_BOS_race_2015.html" frameBorder="0">
+									</iframe>
+									</div>
+									<br><br/> 
+                                    <p class="text-muted"></p>
+                                    <ul class="list-inline">
+                                        <li></li>
+                                       
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1">A majority of the non-white communities locates east of the EB-5 project, Waldorf Astoria. In 2017, Los Angeles county sees an increase of 3.3% employment rate on average. The 12 conjoint tracts have an average of 6.1% of the employment rate increase. Compared to the national average unemployment rate at 4.0%, only two tracts qualify as TEA (unemployment rate > 6.0%), and 8 tracts subvert the TEAs into low unemployment rate neighborhoods.
+
+Before Gerrymandering,
+Unemployment rate at Waldorf Astoria is 6.0%
+
+After Gerrymandering,
+Unemployment Rate at Waldorf Astoria qualified as 
+</i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container" style="max-width:100%">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Trump Jersey City</h2>
+                                    <p class="item-intro text-muted">Jersey City</p>
+                                    <!--   <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />-->
+                                    <div class="row center">
+                                    <iframe style="width:5000px; height:800px;d-block mx-auto;" src="assets/img/condensed/NJ_JC_race_2014.html" frameBorder="0">
+									</iframe>
+									</div>
+									<br><br/> 
+                                    <p class="text-muted">A majority of the non-white communities locates east of the EB-5 project, Waldorf Astoria. In 2017, Los Angeles county sees an increase of 3.3% employment rate on average. The 12 conjoint tracts have an average of 6.1% of the employment rate increase. Compared to the national average unemployment rate at 4.0%, only two tracts qualify as TEA (unemployment rate > 6.0%), and 8 tracts subvert the TEAs into low unemployment rate neighborhoods.
+
+Before Gerrymandering,
+Unemployment rate at Waldorf Astoria is 6.0%
+
+After Gerrymandering,
+Unemployment Rate at Waldorf Astoria qualified as 
+</p>
+                                    <ul class="list-inline">
+                                        <li></li>
+                                    
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container" style="max-width:100%">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">The Source and The Peace Hotels</h2>
+                                    <p class="item-intro text-muted">Los Angeles</p>
+                                    <!--   <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />-->
+                                    <div class="row center">
+                                    <iframe style="width:5000px; height:800px;d-block mx-auto;" src="assets/img/condensed/CA_OC_race_2014.html" frameBorder="0">
+									</iframe>
+									</div>
+									<br><br/> 
+                                    <p class="text-muted">A majority of the non-white communities locates east of the EB-5 project, Waldorf Astoria. In 2017, Los Angeles county sees an increase of 3.3% employment rate on average. The 12 conjoint tracts have an average of 6.1% of the employment rate increase. Compared to the national average unemployment rate at 4.0%, only two tracts qualify as TEA (unemployment rate > 6.0%), and 8 tracts subvert the TEAs into low unemployment rate neighborhoods.
+
+Before Gerrymandering,
+Unemployment rate at Waldorf Astoria is 6.0%
+
+After Gerrymandering,
+Unemployment Rate at Waldorf Astoria qualified as 
+</p>
+                                    <ul class="list-inline">
+                                        <li></li>
+                                  
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container" style="max-width:100%">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                                    <p class="text-muted">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Window</li>
+                                        <li>Category: Photography</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        
+     <script type="text/javascript">   
+         var controller = new ScrollMagic.Controller();
+    
+    
+    	new ScrollMagic.Scene({triggerElement: "#text1"})
+        .setClassToggle("#mapdiv0", "deactive")
+        .addTo(controller);
+        
+        new ScrollMagic.Scene({triggerElement: "#text2"})
+        .setClassToggle("#mapdiv1", "deactive")
+        .addTo(controller);
+        
+         new ScrollMagic.Scene({triggerElement: "#text3"})
+        .setClassToggle("#mapdiv2", "deactive")
+        .addTo(controller);
+        
+         new ScrollMagic.Scene({triggerElement: "#text4"})
+        .setClassToggle("#mapdiv3", "deactive")
+        .addTo(controller);
+        
+        new ScrollMagic.Scene({triggerElement: "#text5"})
+        .setClassToggle("#mapdiv4", "deactive")
+        .addTo(controller);
+        
+         new ScrollMagic.Scene({triggerElement: "#text6"})
+        .setClassToggle("#mapdiv5", "deactive")
+        .addTo(controller);
+        
+        new ScrollMagic.Scene({triggerElement: "#text7"})
+        .setClassToggle("#mapdiv6", "deactive")
+        .addTo(controller);
+        
+        new ScrollMagic.Scene({triggerElement: "#text8"})
+        .setClassToggle("#mapdiv7", "deactive")
+        .addTo(controller);
+        
+        new ScrollMagic.Scene({triggerElement: "#text9"})
+        .setClassToggle("#mapdiv8", "deactive")
+        .addTo(controller);
+        
+        new ScrollMagic.Scene({triggerElement: "#text10"})
+        .setClassToggle("#mapdiv9", "deactive")
+        .addTo(controller);
+
+		new ScrollMagic.Scene({triggerElement: "#text11"})
+        	.setClassToggle(".text1opacity", "active") 
+        	.addTo(controller);
+        
+    	new ScrollMagic.Scene({triggerElement: "#text12"})
+        	.setClassToggle(".text2opacity", "active") 
+        	.addTo(controller);
+                        
+		new ScrollMagic.Scene({triggerElement: "#text13"})
+        	.setClassToggle(".text3opacity", "active") 
+        	.addTo(controller);
+        	
+        new ScrollMagic.Scene({triggerElement: "#text14"})
+        	.setClassToggle(".text4opacity", "active") 
+        	.addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: "#text15"})
+            .setClassToggle("#firstvisualdiv", "deactive") 
+            .addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: "#text15"})
+            .setClassToggle(".img", "active") 
+            .addTo(controller);
+       
+
+        </script>
+    </body>
+</html>
